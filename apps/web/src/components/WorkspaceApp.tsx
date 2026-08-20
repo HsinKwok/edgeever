@@ -3045,7 +3045,6 @@ export const WorkspaceApp = ({
                     replaceFocusToken={noteReplaceFocusToken}
                     saveAndSyncToken={noteSaveAndSyncToken}
                     editorModeToggleToken={noteEditorModeToggleToken}
-                    shortcutSettings={shortcutSettings}
                     onSyncRequested={syncMemosManually}
                     documentActionRequest={memoDocumentActionRequest}
                     onDocumentActionConsumed={(requestId) => {
